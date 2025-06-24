@@ -288,3 +288,22 @@ aside {
 footer {
   clear: both;
 } */
+
+.main-header {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.author-box {
+  display: flex;
+  align-items: center;
+}
+
+.author {
+  margin-bottom: 0;
+  margin-left: 15px;
+}
+
+.related-post {
+}
