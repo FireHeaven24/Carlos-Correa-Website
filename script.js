@@ -202,26 +202,28 @@
 
 // if (favorite !== 23) console.log("why not 23?");
 
-const hasDriverLicense = true; //a
-const hasGoodVision = true; //b
+// const hasDriverLicense = true; //a
+// const hasGoodVision = true; //b
 
-console.log(hasDriverLicense && hasGoodVision);
-console.log(hasDriverLicense || hasGoodVision);
-console.log(!hasDriverLicense);
+// console.log(hasDriverLicense && hasGoodVision);
+// console.log(hasDriverLicense || hasGoodVision);
+// console.log(!hasDriverLicense);
 
-const shouldDrive = hasDriverLicense && hasGoodVision;
+// const shouldDrive = hasDriverLicense && hasGoodVision;
 
-// if (shouldDrive) {
+// // if (shouldDrive) {
+// //   console.log("Sarah is able to drive");
+// // } else {
+// //   console.log("Someone else should drive...");
+// // }
+
+// const isTired = false; //c
+// console.log(hasDriverLicense && hasGoodVision && isTired);
+
+// if (hasDriverLicense && hasGoodVision && !isTired) {
 //   console.log("Sarah is able to drive");
 // } else {
 //   console.log("Someone else should drive...");
 // }
 
-const isTired = false; //c
-console.log(hasDriverLicense && hasGoodVision && isTired);
-
-if (hasDriverLicense && hasGoodVision && !isTired) {
-  console.log("Sarah is able to drive");
-} else {
-  console.log("Someone else should drive...");
-}
+const day = "monday";
