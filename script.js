@@ -226,7 +226,7 @@
 //   console.log("Someone else should drive...");
 // }
 
-const day = "monday";
+const day = "saturday";
 
 switch (day) {
   case "monday":
@@ -234,5 +234,25 @@ switch (day) {
     console.log("Go to coding meetup");
     break;
   case "tuesday":
-    console.log("Prepare theory videos");
+    console.log("prepare theory videos");
+    break;
+  case "wednesday":
+    break;
+  case "thursday":
+    console.log("Write code examples");
+    break;
+  case "friday":
+    console.log("Record videos");
+    break;
+  case "saturday":
+  case "sunday":
+    console.log("Enjoy the weekend :3");
+    break;
+  default:
+    console.log("Not a valid day");
 }
+
+// if (day === "monday") {
+//   console.log("Plan course structure")
+// }
+// else if ()
